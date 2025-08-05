@@ -318,11 +318,12 @@ padding-left: 4%;}
 @media(max-width:768px) {
   .skils {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     height: 100vh auto;
     gap: 20px;
     padding-left: 4%;
     padding-right:4%;
+    
   }
   .text-skils{
     border-bottom:solid rgb(0, 0, 255) 2px;
@@ -336,15 +337,25 @@ padding-left: 4%;}
 }
 @media(max-width:308px) {
   .text1 img{max-width:200px;
-    height: auto;
+    height:100vh auto;
     border-radius:90px 0px 60px 11px;
     
     border: solid 2px white;}
      .text-skils{ font-size: medium;
       padding-bottom: 1%;
       }
+      .skils {
+        display: flex;
+        flex-direction: column;
+        height: 100vh auto;
+        gap: 20px;
+        padding-left: 4%;
+        padding-right:4%;
+       
+      }
 }
 .portfolio{height:100vh;
+  margin-top: 0 auto;
 background-image: url(../img/1702647790_bogatyr-club-p-fon-dlya-prezentatsii-po-programmirovaniyu-1.jpg);
 background-attachment: fixed;
 background-position: center;
